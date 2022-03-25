@@ -16,7 +16,7 @@ class TableRouteFacultyTest {
 	}
 	
 	@Test
-	void testGetRoutes() {
+	void testGetRoutes() { 
 		ArrayList<ArrayList<Integer>> routes = table.getRoutes();
 		assertEquals(20, routes.size());
 	}

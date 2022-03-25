@@ -82,4 +82,13 @@ public class TableRouteFaculty {
 		return indexes.get(faculty);
 	}
 	
+	/* Samuel Batara
+	 * Return the number of faculty.
+	 * 
+	 * @return int 
+	 */
+	public int getNumberOfFaculty() {
+		return faculties.size();
+	}
+	
 }
