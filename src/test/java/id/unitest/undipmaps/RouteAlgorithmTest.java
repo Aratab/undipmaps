@@ -4,12 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.Arrays; 
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -25,18 +22,10 @@ class RouteAlgorithmTest {
 		
 		// Add faculty
 		faculties = new ArrayList<String>();
-		faculties.add("FSM");
-		faculties.add("FEB");
-		faculties.add("FP");
-		faculties.add("FT");
-		faculties.add("FPP");
-		faculties.add("FPIK");
-		faculties.add("FKM");
-		faculties.add("FK");
-		faculties.add("FIB");
-		faculties.add("FISIP");
-		faculties.add("FH");
-		faculties.add("SV");
+		faculties.add("FSM"); faculties.add("FEB"); faculties.add("FP");
+		faculties.add("FT"); faculties.add("FPP"); faculties.add("FPIK");
+		faculties.add("FKM"); faculties.add("FK"); faculties.add("FIB");
+		faculties.add("FISIP"); faculties.add("FH"); faculties.add("SV");
 		 		
 		// Add route between faculties
 		routes = new ArrayList<ArrayList<Integer>>();
